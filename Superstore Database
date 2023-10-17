@@ -1,0 +1,13 @@
+#Used the Select statement to order items by price.
+SELECT *
+FROM Superstore
+ORDER BY Price
+
+#Show a statistic about the item prices.
+SELECT AVG(Price)
+FROM Superstore
+
+#Used the like and wildcard to show a specific item.
+SELECT *
+FROM Superstore
+WHERE Item_Name LIKE 'wireless%'
